@@ -3,7 +3,7 @@
 <h1 align="center">Github Jobs</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from  <a href="https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">

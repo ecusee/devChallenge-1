@@ -1,0 +1,118 @@
+.container {
+    margin: 32px 10%;
+}
+
+.container-body {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.left {
+    height: 100%;
+    width: 30%;
+    margin-right: 44px;
+}
+
+.left a {
+    text-decoration: none;
+}
+
+.left a:visited {
+    color: #334680;
+}
+
+.left .backBtn{
+    display: flex;
+    align-items: center;
+    color: #1E86FF;
+    text-decoration: none;
+}
+
+#howToApply {
+    font-size: 14px;
+    font-weight: 500;
+    color: #334680;
+}
+
+#howToApply p{
+    overflow: hidden;
+}
+
+.howto {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.right {
+    height: 100%;
+    width: 100%;
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #334680;
+    margin-right: 17px;
+}
+
+.time {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    color: #B7BCCE;
+}
+
+.companyInfo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.companyInfo img{
+    width: 90px;
+    height: 90px;
+}
+
+.company {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90px;
+}
+
+.companyLocation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    color: #B9BDCF;
+    font-weight: 500;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #334680;
+}
+
+.description {
+    line-height: 30px;
+    color: #334680
+}
+
+.description p {
+    margin-bottom: 20px;
+}
+.description ul {
+    margin-left: 60px;
+}

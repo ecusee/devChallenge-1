@@ -1,0 +1,259 @@
+.container {
+    margin: 32px 10%;
+}
+
+
+.header {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.header span{
+    font-weight: 700;
+}
+
+.searchbox-container img{
+    width: 100%;
+    height: 140px;
+    margin: 32px 0;
+    position: relative;
+}
+
+.searchbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbox-container .searchbox  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    height: 55px;
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: white;
+}
+
+.input {
+    width: 70%;
+}
+
+.input  input{
+    border: none;
+    margin-left: 10px;
+    color: #B9BDCF;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #B9BDCF;
+  }
+
+.input {
+    display: flex;
+    align-items: center;
+    border: none;color: #B9BDCF;
+    margin-left: 20px;
+}
+
+.searchbox-container .searchbox  button{
+    border: none;
+    width: 146px;
+    height: 47px;
+    background-color: #1E86FF;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.searchbox-container .searchbox  button:hover{
+    background-color: #0053b3;
+    cursor: pointer;
+}
+
+.searchbox-container .searchbox  button:active{
+    background-color: #003066;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.options {
+    height: 100%;
+    width: 30%;
+    margin-right: 44px;
+}
+.top-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 18px;
+}
+
+.checkbox-label {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.checkmark {
+    width: 18px;
+    height: 18px;
+}
+
+.location-select-label {
+    color: #B9BDCF;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.city-searchbox {
+    color: #B9BDCF;
+    display: flex;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-top: 14px;
+    border-radius: 5px;
+}
+
+.city-searchbox input{
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    width: 100%;
+    color: #B9BDCF;
+}
+
+.radio-buttons {
+    margin-left: 18px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-buttons label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #334680;
+    margin-left: 12.5px;
+}
+
+.radio-buttons-item {
+    margin-bottom: 16px;
+}
+
+.jobs {
+    height: 100%;
+    width: 100%;
+}
+
+.job-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    border-radius: 5px;
+    width: 100%;
+    height: 114px;
+    background-color: #FFFFFF;
+}
+
+.job-box img{
+    width: 90px;
+    height: 90px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+.job-box a:visited {
+    color:none
+}
+
+.noCompanyImage {
+    color: black;
+}
+
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background: #FFFFFF;
+}
+
+.right-container {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 60px;
+    color: #B9BDCF;
+}
+
+.company-name {
+    color: #334680;
+    font-weight: 700;
+    font-size: 12px;
+}
+.position{ 
+    color: #334680;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.isFullTime {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border: 1px solid #334680;
+    border-radius: 5px;
+    width: 63px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #334680;
+    margin-top:8px;
+}
+
+.companyCity {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    align-items: center;
+}
+
+.jobTime {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    align-items: center;
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+    color: #B9BDCF;
+    font-size: 14px;
+    font-weight: 500;
+}
